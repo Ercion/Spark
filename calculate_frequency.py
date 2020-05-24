@@ -11,7 +11,7 @@ print('spark session was created!')
 schema=StructType([
 		StructField("User_ID",StringType(),True),
 		StructField("Session_ID",StringType(),True),
-        StructField("Year",IntegerType(),True),
+                StructField("Year",IntegerType(),True),
 		StructField("Month",IntegerType(),True),
 		StructField("Day",IntegerType(),True),
 		StructField("Hour",IntegerType(),True),
